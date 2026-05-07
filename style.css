@@ -13,7 +13,12 @@ h2{font-size:clamp(2rem,5vw,3.75rem);font-weight:700}
 .section-eye{display:flex;align-items:center;gap:12px;margin-bottom:20px}
 .section-eye .line{width:48px;height:3px;background:#dc2626;display:inline-block}
 .section-eye span:last-child{color:#ef4444;font-family:'Oswald',sans-serif;letter-spacing:.3em;font-size:12px;text-transform:uppercase}
-
+.logo{
+   width:80px;
+   height:80px;
+   border-radius:50%;
+   object-fit:cover;
+}
 /* NAVBAR */
 #navbar{position:fixed;top:0;left:0;right:0;z-index:40;transition:.3s;padding:0}
 #navbar.scrolled{background:rgba(0,0,0,.85);backdrop-filter:blur(20px);border-bottom:1px solid rgba(255,255,255,.1)}
